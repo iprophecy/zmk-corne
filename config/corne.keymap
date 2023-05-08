@@ -169,30 +169,30 @@
             >;
         };
 
-        SYMBOL {
+        number {
             // -----------------------------------------------------------------------------------------
             // | ESC  |  !  |  @  |  #  |  $  |  %  |     |  ^   |  &   |  *   |  (   |  )  | DEL |
             // |      | CAPS|     |  {  |  }  | "|" |     | LEFT | DOWN |  UP  | RGT  |  :  |  "  |
             // |      |     |     |     |  `  |  ~  |     | HOME | END  | PGUP | PGDN | INS | ALT |
             //                    |     | SET |     |     |      |      |      |
 
-            label = "SYMBOL";
+            label = "NUMBER";
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS          &kp STAR           &kp LPAR       &kp RPAR  &kp DEL
-   &trans     &none   &none     &none     &none  &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp PIPE    &none
-   &trans     &none   &none     &none     &none  &kp TILDE    &kp UNDER   &kp PLUS    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp BACKSLASH    &none
-                               &trans     &mo 3     &trans       &trans     &trans            &trans
+ &kp ESC  &kp KP_N1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp CARET   &kp AMPS          &kp STAR           &kp LPAR       &kp RPAR  &kp DEL
+&kp CAPS   &kp HOME         &kp LEFT           &kp UP        &kp RIGHT      &kp PAGE_UP    &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET       &kp PIPE    &none
+  &trans     &kp F5          &kp F12         &kp DOWN          &kp END    &kp PAGE_DOWN    &kp UNDER   &kp PLUS    &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp BACKSLASH    &none
+                                               &trans           &trans         &kp CAPS       &trans     &trans            &trans
             >;
         };
 
-        NUMBER {
+        symbol {
             // -----------------------------------------------------------------------------------------
             // | ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL  |
             // | SHF |  F1 |  F2 |  F3 | F4  |  F5 |   |  -  |  =  |  [  |  ]  |  \  | F11  |
             // | CTL |  F6 |  F7 |  F8 | F9  | F10 |   |  _  |  +  |  {  |  }  | "|" | F12  |
             //                   |     |     |     |   | SET |     |     |
 
-            label = "NUMBER";
+            label = "symbol";
             bindings = <
   &trans  &kp N1  &kp N2  &kp N3  &kp N4   &kp N5      &kp N6    &kp N7     &kp N8     &kp N9  &kp N0  &kp DEL
 &kp CAPS  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5    &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT   &none  &kp F11
