@@ -194,10 +194,10 @@
 
             label = "symbol";
             bindings = <
-  &trans  &kp N1  &kp N2  &kp N3  &kp N4   &kp N5      &kp N6    &kp N7     &kp N8     &kp N9  &kp N0  &kp DEL
-&kp CAPS  &kp F1  &kp F2  &kp F3  &kp F4   &kp F5    &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT   &none  &kp F11
-  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10    &kp HOME   &kp END  &kp PG_UP  &kp PG_DN   &none  &kp F12
-                          &trans  &trans   &trans      &trans     &mo 3     &trans
+&trans  &kp EXCL    &kp AT    &kp HASH          &kp DLLR   &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR       &kp RPAR  &kp DEL
+&trans   &kp TAB  &my_name   &my_phone  &kp SINGLE_QUOTE     &kp GRAVE    &kp MINUS      &kp EQUAL      &kp LBKT  &kp RBKT       &kp PIPE   &trans
+&trans    &trans  &mail_me  &mail_live           &kp DQT     &kp TILDE    &kp UNDER       &kp PLUS      &kp LBRC  &kp RBRC  &kp BACKSLASH   &trans
+                                &trans             &mo 3  &kp LEFT_ALT      &kp DEL  &kp BACKSPACE        &trans
             >;
         };
 
