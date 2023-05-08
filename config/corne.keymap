@@ -178,7 +178,7 @@
 
             label = "NUMBER";
             bindings = <
-  &trans  &kp KP_N1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0     &trans
+ &kp ESC  &kp KP_N1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp DEL
 &kp CAPS   &kp HOME         &kp LEFT           &kp UP        &kp RIGHT      &kp PAGE_UP          &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6        &kp EQUAL    &kp DOT
   &trans     &kp F5          &kp F12         &kp DOWN          &kp END    &kp PAGE_DOWN           &kp PLUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3         &kp STAR  &kp SLASH
                                                &trans           &trans         &kp CAPS            &kp DEL            &mo 3           &trans
@@ -194,9 +194,9 @@
 
             label = "symbol";
             bindings = <
-&trans  &kp EXCL    &kp AT    &kp HASH          &kp DLLR   &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR       &kp RPAR  &kp DEL
-&trans   &kp TAB  &my_name   &my_phone  &kp SINGLE_QUOTE     &kp GRAVE    &kp MINUS      &kp EQUAL      &kp LBKT  &kp RBKT       &kp PIPE   &trans
-&trans    &trans  &mail_me  &mail_live           &kp DQT     &kp TILDE    &kp UNDER       &kp PLUS      &kp LBRC  &kp RBRC  &kp BACKSLASH   &trans
+&trans  &kp EXCL    &kp AT    &kp HASH          &kp DLLR   &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR       &kp RPAR  &trans
+&trans   &kp TAB  &my_name   &my_phone  &kp SINGLE_QUOTE     &kp GRAVE    &kp MINUS      &kp EQUAL      &kp LBKT  &kp RBKT       &kp PIPE  &trans
+&trans    &trans  &mail_me  &mail_live           &kp DQT     &kp TILDE    &kp UNDER       &kp PLUS      &kp LBRC  &kp RBRC  &kp BACKSLASH  &trans
                                 &trans             &mo 3  &kp LEFT_ALT      &kp DEL  &kp BACKSPACE        &trans
             >;
         };
