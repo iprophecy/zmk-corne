@@ -219,10 +219,10 @@
 
         HOTKEY {
             bindings = <
-&trans  &email  &gmail  &phone  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &mail_me  &mail_live  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans    &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
