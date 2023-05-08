@@ -215,14 +215,5 @@
                                               &trans         &none         &none    &kp KP_NUMBER_0  &kp KP_NUMBER_0           &trans
             >;
         };
-
-        HOTKEY {
-            bindings = <
-&trans  &mail_me  &mail_live  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &trans      &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                              &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
