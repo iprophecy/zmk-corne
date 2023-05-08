@@ -62,16 +62,28 @@
         };
 
         cv {
-            bindings = <&kp PIPE>;
-            key-positions = <27 28>;
+            bindings = <&kp BACKSLASH>;
+            key-positions = <29 16>;
             layers = <0>;
             timeout-ms = <50>;
         };
 
-        m_ {
-            bindings = <&kp BSLH>;
-            key-positions = <31 32>;
+        jb {
+            bindings = <&kp SLASH>;
+            key-positions = <30 19>;
             layers = <0>;
+            timeout-ms = <50>;
+        };
+
+        gb {
+            bindings = <&kp PIPE>;
+            key-positions = <17 29>;
+            timeout-ms = <50>;
+        };
+
+        hn {
+            bindings = <&kp PIPE>;
+            key-positions = <18 30>;
             timeout-ms = <50>;
         };
     };
