@@ -209,10 +209,10 @@
 
             label = "ble";
             bindings = <
-    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4              &none  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none  &kp BACKSPACE
-    &trans         &none         &none         &none    &bt BT_CLR  &out OUT_TOG              &none  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &none          &none
-&sys_reset   &bootloader         &none         &none  &out OUT_USB  &out OUT_BLE              &none  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none          &none
-                                              &trans         &none         &none    &kp KP_NUMBER_0  &kp KP_NUMBER_0           &trans
+    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &kp F9          &kp F10  &kp F11  &kp F12  &none  &kp BACKSPACE
+    &trans         &none         &none         &none    &bt BT_CLR  &out OUT_TOG             &kp F5           &kp F6   &kp F7   &kp F8  &none          &none
+&sys_reset   &bootloader         &none         &none  &out OUT_USB  &out OUT_BLE             &kp F1           &kp F2   &kp F3   &kp F4  &none          &none
+                                              &trans         &none         &none    &kp KP_NUMBER_0  &kp KP_NUMBER_0   &trans
             >;
         };
     };
