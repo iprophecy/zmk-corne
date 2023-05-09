@@ -179,7 +179,7 @@
             bindings = <
  &kp ESC  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp DEL
 &kp CAPS      &kp HOME      &kp LEFT        &kp UP     &kp RIGHT    &kp PAGE_UP       &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6     &kp EQUAL    &kp DOT
-  &trans        &kp F5       &kp F12      &kp DOWN       &kp END  &kp PAGE_DOWN        &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp STAR  &kp SLASH
+  &trans       &kp END         &none      &kp DOWN         &none  &kp PAGE_DOWN        &kp PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp STAR  &kp SLASH
                                             &trans        &trans       &kp CAPS         &kp DEL         &mo 3        &trans
             >;
         };
