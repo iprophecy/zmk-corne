@@ -195,7 +195,7 @@
             bindings = <
 &trans  &kp EXCL    &kp AT    &kp HASH          &kp DLLR   &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR       &kp RPAR  &trans
 &trans   &kp TAB  &my_name   &my_phone  &kp SINGLE_QUOTE     &kp GRAVE    &kp MINUS      &kp EQUAL      &kp LBKT  &kp RBKT       &kp PIPE  &trans
-&trans    &trans  &mail_me  &mail_live           &kp DQT     &kp TILDE    &kp UNDER       &kp PLUS      &kp LBRC  &kp RBRC  &kp BACKSLASH  &trans
+&trans     &none  &mail_me  &mail_live           &kp DQT     &kp TILDE    &kp UNDER       &kp PLUS      &kp LBRC  &kp RBRC  &kp BACKSLASH  &trans
                                 &trans             &mo 3  &kp LEFT_ALT      &kp DEL  &kp BACKSPACE        &trans
             >;
         };
@@ -209,10 +209,10 @@
 
             label = "ble";
             bindings = <
-    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &kp F9          &kp F10  &kp F11  &kp F12  &none  &kp BACKSPACE
-    &trans         &none         &none         &none    &bt BT_CLR  &out OUT_TOG             &kp F5           &kp F6   &kp F7   &kp F8  &none          &none
-&sys_reset   &bootloader         &none         &none  &out OUT_USB  &out OUT_BLE             &kp F1           &kp F2   &kp F3   &kp F4  &none          &none
-                                              &trans         &none         &none    &kp KP_NUMBER_0  &kp KP_NUMBER_0   &trans
+    &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F9  &kp F10  &kp F11  &kp F12  &none  &kp BACKSPACE
+    &trans         &none         &none         &none    &bt BT_CLR  &out OUT_TOG    &kp F5   &kp F6   &kp F7   &kp F8  &none          &none
+&sys_reset   &bootloader         &none         &none  &out OUT_USB  &out OUT_BLE    &kp F1   &kp F2   &kp F3   &kp F4  &none          &none
+                                              &trans         &none         &none     &none    &none   &trans
             >;
         };
     };
