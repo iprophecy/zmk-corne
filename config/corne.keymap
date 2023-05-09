@@ -81,7 +81,7 @@
         };
 
         hn {
-            bindings = <&kp PIPE>;
+            bindings = <&kp UNDER>;
             key-positions = <18 30>;
             timeout-ms = <50>;
         };
